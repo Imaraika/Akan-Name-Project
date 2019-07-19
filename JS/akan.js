@@ -13,9 +13,10 @@ function akanFunction(){
  var CC =  (YY-1)/100+1;
  var dayOFTheWeek=( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
  
- if ( arrayAkanMale[Math.round(dayOFTheWeek)]){
- 
+//  if ( gender=== "Male"){
+
   document.getElementById("day").innerHTML = "you were bon on :" + arrayDay[Math.round(dayOFTheWeek)];
-  document.getElementById("msg2").innerHTML = "And Your Akan Name is :" +document.getElementById("akaname").arrayAkanMale[Math.round(dayOFTheWeek)];
- }
+  document.getElementById("akaname").innerHTML = "And Your Akan Name is :" + arrayAkanMale[Math.round(dayOFTheWeek)];
+ 
+//  }
 }
