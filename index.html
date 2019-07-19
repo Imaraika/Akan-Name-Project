@@ -8,15 +8,18 @@
     <script src="../Akan/JS/akan.js"></script>
 </head>
 <body>
+    
     Names:<input type="text" id="name" placeholder="Please Enter your Name" required><br><br>
     DateB<input type="number" id="dd" placeholder="Please Enter your Date of Birth" required><br><br>
     DateB<input type="number" id="mm" placeholder="Please Enter your Date of Birth" required><br><br>
     DateB<input type="number" id="yy" placeholder="Please Enter your Date of Birth" required><br><br>
     Gender:
-    <input type="Radio" id="DoB" placeholder="Please Enter your Date of Birth" required>Male<br><br>
-    <input type="Radio" id="DoB" placeholder="Please Enter your Date of Birth" required>Female<br><br>
+    <input type="Radio"  name="gender" value = "Male" id="gend"  required>Male
+    <input type="Radio" name="gender" value = "Female" id="gend"  required>Female<br><br>
     <button onclick="akanFunction()">Click here to see your Akan NAme</button>
-    <p id="demo"></p>
+
+    <p id="day"></p>
+    <p id="akaname"></p>
 
     
 </body>
