@@ -6,6 +6,9 @@ to calculate the day you were born and display the Akan name According to your d
 * [General info](#generalinfo)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [BDD](#dbb)
+* [Input](#input)
+* [Output](#output)
 * [Code Examples](#codeexamples)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -30,6 +33,21 @@ To run this project, install it locally using git clone:
 these are some git command you may use
 $ cd ../git init 
 $ git clone https/Imaraika.github/Akan-Name-Project.git
+
+## BDD
+### Behavior
+- Please Enter your Name 
+- Enter your birth date accordingly (the date , mounth and Year)
+- select your Gender
+- then After click On A button to see your Akana name and the day you were born.
+### Input
+- Name
+- Day mounth, year
+- Male or Female
+### Output
+- Day of birth
+- Akan name 
+<img 
 
 ## Code Examples
  var DD =parseFloat(document.getElementById("dd").value);
