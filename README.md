@@ -51,6 +51,7 @@ $ git clone https/Imaraika.github/Akan-Name-Project.git
 ![Example screenshot](../Akan/images/outputscreetsht.png) 
 
 ## Code Examples
+ var firstname =documet.getElementById("fname").value;
  var DD =parseFloat(document.getElementById("dd").value);
  var MM =parseFloat(document.getElementById("mm").value);
  var YY =parseFloat(document.getElementById("yy").value);
