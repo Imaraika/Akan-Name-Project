@@ -44,10 +44,11 @@ $ git clone https/Imaraika.github/Akan-Name-Project.git
 - Name
 - Day mounth, year
 - Male or Female
+![Example screenshot](../Akan/images/inputscreenshot.png)
 ### Output
 - Day of birth
 - Akan name 
-<img 
+![Example screenshot](../Akan/images/outputscreetsht.png) 
 
 ## Code Examples
  var DD =parseFloat(document.getElementById("dd").value);
