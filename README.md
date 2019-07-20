@@ -1,10 +1,8 @@
-##Akan-Name-Project
-#By Ange Ingabire
-#Description
+## Akan-Name-Project
 to calculate the day you were born and display the Akan name According to your day of Birth and your gender!
 
 ## Table of contents
-* [General info](#Description)
+* [General info](#general Info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Code Examples](#codeexamples)
@@ -32,21 +30,21 @@ these are some git command you may use
 $ cd ../git init 
 $ git clone https/Imaraika.github/Akan-Name-Project.git
 
-##Code Examples
+## Code Examples
  var DD =parseFloat(document.getElementById("dd").value);
  var MM =parseFloat(document.getElementById("mm").value);
  var YY =parseFloat(document.getElementById("yy").value);
  var CC =  (YY-1)/100+1;
  var dayOFTheWeek=( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
  
-##Status
+## Status
 this Project is done and you can use it if you want 
 
-##Inspiration
+## Inspiration
 My All Credits goes to Moringa School Technical Mentors especially Aristote the TM who Always guide us and share with us more and more 
 in Programming. 
 
-##Contact
+## Contact
 created By inange2013@gmail.com feel free to contact me!
 
 ## Licence
