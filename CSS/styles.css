@@ -21,3 +21,6 @@ color: black;
 text-align: center;
 color: darkred;
 }
+#invalidInfo{
+    color: red;
+}
