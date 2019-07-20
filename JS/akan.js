@@ -26,5 +26,5 @@ function akanFunction(){
         else {
     document.getElementById("day").innerHTML = "Please Enter the valid information"
 }
-    document.getElementById('firstn').innerHTML ="Dear" + "" +firstName;
+    document.getElementById('firstn').innerHTML ="Dear" + " " + firstName;
 } 
