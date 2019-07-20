@@ -1,0 +1,16 @@
+#contentdiv{
+ float: Right;
+ text-align: center;
+ justify-content: left;
+}
+#imag{
+    background-image: url('../images/akanimg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 300px;
+    float: left;
+    
+}
+main{
+   
+}

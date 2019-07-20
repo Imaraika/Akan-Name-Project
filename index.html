@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan WebApplication</title>
+    <link rel="stylesheet" type="text/css" href="../Akan/CSS/styles.css">
     <script src="../Akan/JS/akan.js"></script>
 </head>
 <body>
-    
+    <div id="imag"></div>
+    <div id="contentdiv">
     Names:<input type="text" id="name" placeholder="Please Enter your Name" required><br><br>
     DOB:<input type="number" name="bddat" id="dd" placeholder="Please Enter your Date of Birth" min="1" max="31" maxlength="2">
     <input type="number" id="mm" placeholder="Please Enter your Date of Birth" min="1" max="12" maxlength="2">
     <input type="number" id="yy" placeholder="Please Enter your Date of Birth" min="1" maxlength="4"><br><br> 
     Gender:
-    <input type="Radio"  name="gender" value = "Male" id="gend"  required>Male
-    <input type="Radio" name="gender" value = "Female" id="gend"  required>Female<br><br>
-    <button onclick="akanFunction()">Click here to see your Akan NAme</button><br><br>
-
-
     <select id="selector">
             <option>GENDER</option>
             <option value="female">FEMALE</option>
-            <option value="male">MALE</option>
+            <option value="male">MALE</option><br><br>
+    <button onclick="akanFunction()">Click here to see your Akan NAme</button><br><br>
+    </div>    
+    
         </select><br>
     <h3 id="day"></h3>
     <h3 id="msg2"></h2><p id="akaname"></p>
