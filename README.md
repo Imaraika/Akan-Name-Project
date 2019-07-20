@@ -6,7 +6,7 @@ to calculate the day you were born and display the Akan name According to your d
 * [General info](#generalinfo)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Code Examples](#code examples)
+* [Code Examples](#codeexamples)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
