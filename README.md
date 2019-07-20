@@ -1,11 +1,12 @@
 ## Akan-Name-Project
+## By Ange Ingabire
 to calculate the day you were born and display the Akan name According to your day of Birth and your gender!
 
 ## Table of contents
-* [General info](#general Info)
+* [General info](#generalinfo)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Code Examples](#codeexamples)
+* [Code Examples](#code examples)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
