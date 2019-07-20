@@ -1,7 +1,7 @@
 #contentdiv{
  float: Right;
- text-align: center;
- justify-content: left;
+justify-items: right;
+color: black;
 }
 #imag{
     background-image: url('../images/akanimg.jpg');
