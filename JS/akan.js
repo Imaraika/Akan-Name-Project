@@ -23,9 +23,8 @@ function akanFunction(){
     document.getElementById('day').innerHTML ="You were Born On :"+" "+ arrayDay[Math.round(dayOFTheWeek)];
     document.getElementById('akaname').innerHTML ="And Your Akan Name is:"+" "+ arrayAkanFemale[Math.round(dayOFTheWeek)];
 }
-else 
-{
+        else {
     document.getElementById("day").innerHTML = "Please Enter the valid information"
 }
-document.getElementById('firstn').innerHTML ="Dear"+" "+firstName;
+    document.getElementById('firstn').innerHTML ="Dear"+" "+firstName;
 } 
