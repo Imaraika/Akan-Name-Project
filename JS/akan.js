@@ -12,14 +12,14 @@ function akanFunction(){
  var dayOFTheWeek=( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
   if ( Math.round(dayOFTheWeek)== arrayAkanRes[Math.round(dayOFTheWeek)] && gender == "male" ){
     console.log(arrayDay[Math.round(dayOFTheWeek)]);
-    document.getElementById('day').innerHTML = arrayDay[Math.round(dayOFTheWeek)];
-    document.getElementById('akaname').innerHTML = arrayAkanMale[Math.round(dayOFTheWeek)];
+    document.getElementById('day').innerHTML ="You were Born On :"+ arrayDay[Math.round(dayOFTheWeek)];
+    document.getElementById('akaname').innerHTML ="And your Akan Name is : " + arrayAkanMale[Math.round(dayOFTheWeek)];
 }
 
     else if(Math.round(dayOFTheWeek)== arrayAkanRes[Math.round(dayOFTheWeek)] && gender == "female" ){
         console.log(arrayDay[Math.round(dayOFTheWeek)]);
-    document.getElementById('day').innerHTML = arrayDay[Math.round(dayOFTheWeek)];
-    document.getElementById('akaname').innerHTML = arrayAkanFemale[Math.round(dayOFTheWeek)];
+    document.getElementById('day').innerHTML ="You were Born On :"+ arrayDay[Math.round(dayOFTheWeek)];
+    document.getElementById('akaname').innerHTML ="And Your Akan Name is:"+ arrayAkanFemale[Math.round(dayOFTheWeek)];
 }
 else 
 {

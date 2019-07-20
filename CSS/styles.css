@@ -11,6 +11,9 @@ color: black;
     float: left;
     
 }
-main{
-   
+#day{
+   color:darkgreen;
+}
+#akaname{
+    color: rgb(201, 18, 109);
 }
