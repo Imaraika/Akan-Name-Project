@@ -1,5 +1,5 @@
 #contentdiv{
- float: Right;
+float: Right;
 justify-items: right;
 color: black;
 }
@@ -16,4 +16,8 @@ color: black;
 }
 #akaname{
     color: rgb(201, 18, 109);
+}
+#firstn{
+text-align: center;
+color: darkred;
 }

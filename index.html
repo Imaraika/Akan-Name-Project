@@ -7,15 +7,17 @@
     <title>Akan WebApplication</title>
     <link rel="stylesheet" type="text/css" href="../Akan/CSS/styles.css">
     <script src="../Akan/JS/akan.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css ">
 </head>
 <body>
     <div id="imag"></div>
     <h3 id="ak"></h3> 
     <div id="contentdiv">
-        <em><strong>Names:</strong></em>
-        <input type="number" id="name" placeholder="Please Enter your Name" required><br><br>
+        <p><strong>Birthday Information Form</strong></p><br>
+        <em><strong>Name:</strong></em>
+        <input type="text" id="fname" placeholder="Please Enter Only Your Firstname"><br><br>
         <em><strong>DOB:</strong></em>
-        <input type="text" name="bddat" id="dd" placeholder="Please Enter your Date of Birth" min="1" max="31" maxlength="2">
+        <input type="number" name="bddat" id="dd" placeholder="Please Enter your Date of Birth" min="1" max="31" maxlength="2">
         <input type="number" id="mm" placeholder="Please Enter your Date of Birth" min="1" max="12" maxlength="2">
         <input type="number" id="yy" placeholder="Please Enter your Date of Birth" min="1" maxlength="4"><br><br> 
         <em><strong>Gender:</strong></em>
@@ -23,7 +25,8 @@
             <option>Please select your Gender</option>
             <option value="female">FEMALE</option>
             <option value="male">MALE</option> </select><br><br>
-        <button onclick="akanFunction()">Click here to see your Akan NAme</button><br><br>
+        <button onclick="akanFunction()" class="btn btn-success">Click here to see your Akan Name</button><br><br>
+        <p id="firstn" style="font-style: oblique; align-content: center"></p>
         <h3 id="day"></h3>
         <h3 id="akaname"></h3>
         <h3 id="ak"></h3>
